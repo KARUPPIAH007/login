@@ -1,0 +1,13 @@
+{
+    "users": [
+      {
+        "username": "patient1",
+        "password": "password1"
+      },
+      {
+        "username": "patient2",
+        "password": "password2"
+      }
+    ]
+  }
+  

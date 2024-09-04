@@ -1,0 +1,33 @@
+/* Ensure the background image covers the entire viewport */
+.background {
+    background: url('C:\Users\karuppiah.c\Desktop\Doctor\login\public\StockCake-Joyful pediatric visit_1725431019.jpg') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh; /* Ensure it covers the full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Card styling */
+  .card-container {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 576px) {
+    .card-container {
+      padding: 15px;
+    }
+    .card-title {
+      font-size: 1.5rem;
+    }
+    .form-control {
+      font-size: 0.875rem;
+    }
+  }
+  
