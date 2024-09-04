@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './patlogin.css';
+import './patlogin.css'; // Ensure the CSS file is correctly named and imported
 import axios from 'axios';
 
 const dataUrl = 'http://localhost:8888/users'; // Update with your actual API URL
@@ -23,6 +23,7 @@ function PatientLogin() {
       if (user) {
         console.log('Patient Login Successful:', { username, password });
         setError('');
+        // You might want to redirect or handle successful login here
       } else {
         setError('Invalid username or password');
       }
